@@ -6,18 +6,20 @@
 ### Brute-Force-Attack-Simulator-on-Hashes-GUI-
 The Password Security &amp; Attack Simulation Tool is a desktop-based Python application designed to educate users about password security by visually simulating how dictionary attacks and brute-force attacks work against weak password hashes.
 
-This project is purely educational and defensive.
+> [!IMPORTANT]
+> This project is purely educational and defensive.
+
 It does NOT target real systems or real users and is intended to raise awareness about:
 
-Weak vs strong passwords
+- Weak vs strong passwords
 
-Importance of salting
+- Importance of salting
 
-Secure hashing algorithms
+- Secure hashing algorithms
 
-Why brute-force attacks become impractical against strong passwords
+- Why brute-force attacks become impractical against strong passwords
 
-How rate limiting and lock mechanisms protect real-world systems
+- How rate limiting and lock mechanisms protect real-world systems
 
 ## ⚠️ Ethical Disclaimer
 
@@ -29,117 +31,117 @@ The goal is to understand attacker techniques so that better defenses can be des
 
 ## 🎯 Project Objectives
 
-Demonstrate how weak passwords can be cracked easily
+* Demonstrate how weak passwords can be cracked easily
 
-Show how salting changes hash behavior
+* Show how salting changes hash behavior
 
-Compare hashing algorithms (MD5 → PBKDF2)
+* Compare hashing algorithms (MD5 → PBKDF2)
 
-Simulate realistic attack behavior with rate limiting
+* Simulate realistic attack behavior with rate limiting
 
-Provide a real-world-like GUI experience
+* Provide a real-world-like GUI experience
 
-Allow users to start, monitor, and stop attacks safely
+* Allow users to start, monitor, and stop attacks safely
 
-Educate non-technical users visually
+* Educate non-technical users visually
 
 ## 🧠 Key Concepts Covered
 
-Password Hashing vs Encryption
+* Password Hashing vs Encryption
 
-Salting & why it breaks precomputed attacks
+* Salting & why it breaks precomputed attacks
 
-Dictionary attacks
+* Dictionary attacks
 
-Brute-force attacks
+* Brute-force attacks
 
-Password entropy & strength
+* Password entropy & strength
 
-Rate limiting
+* Rate limiting
 
-Attack monitoring & control
+* Attack monitoring & control
 
-Secure password practices
+* Secure password practices
 
 ## 🖥️ Application Interface (GUI)
 
 The application uses a modern, professional GUI built with CustomTkinter, featuring:
 
-Clean layout with panels
+* Clean layout with panels
 
-Status indicators
+* Status indicators
 
-Progress loading animation
+* Progress loading animation
 
-Disabled controls during attacks
+* Disabled controls during attacks
 
-Live logs for attack activity
+* Live logs for attack activity
 
-Real-time feedback messages
+* Real-time feedback messages
 
 # 🔧 Features
 ## 🔐 Password Handling
 
-Password input (never stored on disk)
+* Password input (never stored on disk)
 
-Real-time password strength indicator
+* Real-time password strength indicator
 
-Password entropy calculation (bits)
+* Password entropy calculation (bits)
 
 ## 🔑 Hashing Algorithms
 
-MD5 (insecure – educational)
+* MD5 (insecure – educational)
 
-SHA1 (deprecated)
+* SHA1 (deprecated)
 
-SHA256
+* SHA256
 
-SHA512
+* SHA512
 
-PBKDF2 (industry standard, slow hash)
+* PBKDF2 (industry standard, slow hash)
 
 ## 🧂 Salting
 
-Optional salting toggle
+* Optional salting toggle
 
-Mandatory salt enforcement for PBKDF2
+* Mandatory salt enforcement for PBKDF2
 
-Demonstrates how salts change hash outputs
+* Demonstrates how salts change hash outputs
 
 ## ⚔️ Attack Simulations
-Dictionary Attack
+* Dictionary Attack
 
-Uses a local wordlist (dictionary.txt)
+* Uses a local wordlist (dictionary.txt)
 
-Simulates common password cracking
+* Simulates common password cracking
 
-Rate-limited to mimic real systems
+* Rate-limited to mimic real systems
 
-Shows success, failure, or user stop
+* Shows success, failure, or user stop
 
-Brute Force Attack
+* Brute Force Attack
 
-Custom character set selection
+* Custom character set selection
 
-Configurable maximum length
+* Configurable maximum length
 
-Real-time attempt counting
+* Real-time attempt counting
 
-Rate-limited execution
+* Rate-limited execution
 
-Fully stoppable by user
+* Fully stoppable by user
 
 ## ⏳ Attack Control & Feedback
 
-Attack start messages
+* Attack start messages
 
-Progress bar animation (loading indicator)
+* Progress bar animation (loading indicator)
 
-Status label: Idle / Running
+* Status label: Idle / Running
 
-Stop attack at any time
+* Stop attack at any time
 
-Clear completion, failure, or stop messages
+* Clear completion, failure, or stop messages
 
 ## 🧪 Real-World Behavior Simulation
 | Real System Feature | Project Implementation      |
@@ -168,17 +170,17 @@ BruteForce-Hash-Simulator/
 
 ## ⚙️ Technologies Used
 
-Python 3.10+
+* Python 3.10+
 
-CustomTkinter (modern Tkinter UI)
+* CustomTkinter (modern Tkinter UI)
 
-hashlib (cryptographic hashing)
+* hashlib (cryptographic hashing)
 
-threading (non-blocking GUI)
+* threading (non-blocking GUI)
 
-itertools (brute-force generation)
+* itertools (brute-force generation)
 
-OS / Math modules
+* OS / Math modules
 
 # 📥 Installation
 ## Clone Repository
@@ -194,66 +196,66 @@ OS / Math modules
 
 ## 🧠 How It Works (High Level)
 
-User enters a password
+* User enters a password
 
-Application evaluates strength & entropy
+* Application evaluates strength & entropy
 
-User selects hashing algorithm and salting
+* User selects hashing algorithm and salting
 
-Hash is generated internally
+* Hash is generated internally
 
-Attack simulation begins
+* Attack simulation begins
 
-Progress bar + status show activity
+* Progress bar + status show activity
 
-User may stop attack anytime
+* User may stop attack anytime
 
-Result is displayed with attempt count
+* Result is displayed with attempt count
 
 ## 🔍 Core Functions & Modules
-hashing.py
+1. hashing.py
 
-generate_salt()
+2. generate_salt()
 
-hash_password(password, algorithm, salt)
+3. hash_password(password, algorithm, salt)
 
-strength.py
+4. strength.py
 
-entropy(password)
+5. entropy(password)
 
-strength(password)
+6. strength(password)
 
-attacks.py
+7. attacks.py
 
-dictionary_attack(...)
+8. dictionary_attack(...)
 
-brute_force_attack(...)
+9. brute_force_attack(...)
 
-rate_limit.py
+10. rate_limit.py
 
-RateLimiter.allow()
+11. RateLimiter.allow()
 
-gui.py
+12. gui.py
 
-GUI layout & controls
+13. GUI layout & controls
 
-Thread-safe attack handling
+14. Thread-safe attack handling
 
-Progress & status updates
+15. Progress & status updates
 
-Start/Stop logic
+16. Start/Stop logic
 
 ## 🧑‍🎓 Intended Audience
 
-Cybersecurity students
+- Cybersecurity students
 
-Beginners learning password security
+- Beginners learning password security
 
-Final Year Project (FYP) submissions
+- Final Year Project (FYP) submissions
 
-Demonstrations & presentations
+- Demonstrations & presentations
 
-Portfolio / GitHub showcase
+- Portfolio / GitHub showcase
 
 ## 🚫 What This Project Is NOT
 
@@ -263,39 +265,36 @@ Portfolio / GitHub showcase
 
 ## 📈 Possible Future Enhancements
 
-Attack time estimation graphs
++ Attack time estimation graphs
 
-PDF report generation
++ PDF report generation
 
-bcrypt / Argon2 support
++ bcrypt / Argon2 support
 
-Login system simulation
++ Login system simulation
 
-Dark/light theme toggle
++ Dark/light theme toggle
 
-CSV export of attack logs
++ CSV export of attack logs
 
 ## 🏆 Academic Value
 
 This project demonstrates:
 
-Secure coding practices
+1. Secure coding practices
 
-Ethical cybersecurity mindset
+2. Ethical cybersecurity mindset
 
-GUI design for technical tools
+3. GUI design for technical tools
 
-Thread-safe application logic
+4. Thread-safe application logic
 
-Real-world security awareness
+5. Real-world security awareness
 
-## 📜 License
+## 📜 License & 🙌 Final Note
 
-This project is released for educational use only.
-You are free to study, modify, and share it responsibly.
-
-## 🙌 Final Note
-
-Strong passwords + modern hashing = real security
-
-Understanding attacks is the first step to building defenses.
+> [!NOTE]
+> This project is released for educational use only.
+> You are free to study, modify, and share it responsibly.
+> Strong passwords + modern hashing = real security
+> Understanding attacks is the first step to building defenses.
