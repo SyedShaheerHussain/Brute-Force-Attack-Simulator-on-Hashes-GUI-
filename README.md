@@ -1,9 +1,9 @@
-### 🔐 Password Security & Attack Simulation Tool
+# 🔐 Password Security & Attack Simulation Tool
 
 (Educational & Defensive Cybersecurity Project)
 
 ## 📌 Overview 
-# Brute-Force-Attack-Simulator-on-Hashes-GUI-
+### Brute-Force-Attack-Simulator-on-Hashes-GUI-
 The Password Security &amp; Attack Simulation Tool is a desktop-based Python application designed to educate users about password security by visually simulating how dictionary attacks and brute-force attacks work against weak password hashes.
 
 This project is purely educational and defensive.
@@ -77,8 +77,8 @@ Live logs for attack activity
 
 Real-time feedback messages
 
-## 🔧 Features
-# 🔐 Password Handling
+# 🔧 Features
+## 🔐 Password Handling
 
 Password input (never stored on disk)
 
@@ -86,7 +86,7 @@ Real-time password strength indicator
 
 Password entropy calculation (bits)
 
-# 🔑 Hashing Algorithms
+## 🔑 Hashing Algorithms
 
 MD5 (insecure – educational)
 
@@ -98,7 +98,7 @@ SHA512
 
 PBKDF2 (industry standard, slow hash)
 
-# 🧂 Salting
+## 🧂 Salting
 
 Optional salting toggle
 
@@ -106,7 +106,7 @@ Mandatory salt enforcement for PBKDF2
 
 Demonstrates how salts change hash outputs
 
-# ⚔️ Attack Simulations
+## ⚔️ Attack Simulations
 Dictionary Attack
 
 Uses a local wordlist (dictionary.txt)
@@ -177,14 +177,14 @@ itertools (brute-force generation)
 
 OS / Math modules
 
-## 📥 Installation
-# Clone Repository
+# 📥 Installation
+## Clone Repository
 
 ` git clone https://github.com/SyedShaheerHussain/Brute-Force-Attack-Simulator-on-Hashes-GUI-
   cd Brute Force Attack Simulator on Hashes
 `
 
-# ▶️ Running the Application
+## ▶️ Running the Application
 python main.py
 
 ## 🧠 How It Works (High Level)
