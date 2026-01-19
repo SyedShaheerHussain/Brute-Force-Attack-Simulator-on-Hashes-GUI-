@@ -152,7 +152,7 @@ Clear completion, failure, or stop messages
 
 ## 🏗️ Project Structure
 BruteForce-Hash-Simulator/
-│
+`│
 ├── main.py          # Application entry point
 ├── gui.py           # GUI logic & event handling
 ├── hashing.py       # Hashing & salting functions
@@ -161,7 +161,7 @@ BruteForce-Hash-Simulator/
 ├── rate_limit.py    # Rate-limiting simulation
 ├── dictionary.txt   # Sample password list
 ├── requirements.txt # Dependencies
-└── README.md        # Project documentation
+└── README.md        # Project documentation`
 
 ## ⚙️ Technologies Used
 
@@ -185,7 +185,9 @@ OS / Math modules
 `
 
 ## ▶️ Running the Application
-python main.py
+
+`python main.py
+`
 
 ## 🧠 How It Works (High Level)
 
