@@ -3,7 +3,9 @@
 (Educational & Defensive Cybersecurity Project)
 
 ## 📌 Overview 
+
 ### Brute-Force-Attack-Simulator-on-Hashes-GUI-
+
 The Password Security &amp; Attack Simulation Tool is a desktop-based Python application designed to educate users about password security by visually simulating how dictionary attacks and brute-force attacks work against weak password hashes.
 
 > [!IMPORTANT]
@@ -79,8 +81,9 @@ The application uses a modern, professional GUI built with CustomTkinter, featur
 
 * Real-time feedback messages
 
-# 🔧 Features
-## 🔐 Password Handling
+## 🔧 Features
+
+### 🔐 Password Handling
 
 * Password input (never stored on disk)
 
@@ -88,7 +91,7 @@ The application uses a modern, professional GUI built with CustomTkinter, featur
 
 * Password entropy calculation (bits)
 
-## 🔑 Hashing Algorithms
+### 🔑 Hashing Algorithms
 
 * MD5 (insecure – educational)
 
@@ -100,7 +103,7 @@ The application uses a modern, professional GUI built with CustomTkinter, featur
 
 * PBKDF2 (industry standard, slow hash)
 
-## 🧂 Salting
+### 🧂 Salting
 
 * Optional salting toggle
 
@@ -108,7 +111,8 @@ The application uses a modern, professional GUI built with CustomTkinter, featur
 
 * Demonstrates how salts change hash outputs
 
-## ⚔️ Attack Simulations
+### ⚔️ Attack Simulations
+
 * Dictionary Attack
 
 * Uses a local wordlist (dictionary.txt)
@@ -131,7 +135,7 @@ The application uses a modern, professional GUI built with CustomTkinter, featur
 
 * Fully stoppable by user
 
-## ⏳ Attack Control & Feedback
+### ⏳ Attack Control & Feedback
 
 * Attack start messages
 
@@ -182,17 +186,25 @@ BruteForce-Hash-Simulator/
 
 * OS / Math modules
 
-# 📥 Installation
-## Clone Repository
+## 📥 Installation
 
-` git clone https://github.com/SyedShaheerHussain/Brute-Force-Attack-Simulator-on-Hashes-GUI-
-  cd Brute Force Attack Simulator on Hashes
-`
+### Clone Repository
+
+```
+ git clone https://github.com/SyedShaheerHussain/Brute-Force-Attack-Simulator-on-Hashes-GUI-
+
+```
+```
+cd Brute Force Attack Simulator on Hashes
+
+```
 
 ## ▶️ Running the Application
 
-`python main.py
-`
+```
+python main.py
+
+```
 
 ## 🧠 How It Works (High Level)
 
@@ -213,6 +225,7 @@ BruteForce-Hash-Simulator/
 * Result is displayed with attempt count
 
 ## 🔍 Core Functions & Modules
+
 1. hashing.py
 
 2. generate_salt()
@@ -260,7 +273,9 @@ BruteForce-Hash-Simulator/
 ## 🚫 What This Project Is NOT
 
 ❌ Not a hacking tool
+
 ❌ Not for real-world cracking
+
 ❌ Not designed for illegal usage
 
 ## 📈 Possible Future Enhancements
