@@ -18,6 +18,10 @@
 
 A Python desktop tool that educates users on password security by simulating dictionary and brute-force attacks on weak hashes.
 
+## Description
+
+The Password Security &amp; Attack Simulation Tool is a desktop-based Python application designed to educate users about password security by visually simulating how dictionary attacks and brute-force attacks work against weak password hashes.
+
 > [!IMPORTANT]
 > This project is purely educational and defensive.
 
