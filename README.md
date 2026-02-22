@@ -327,3 +327,21 @@ This project demonstrates:
 > You are free to study, modify, and share it responsibly.
 > Strong passwords + modern hashing = real security
 > Understanding attacks is the first step to building defenses.
+
+## ⭐ Support & Engagement
+
+If you find this repository useful or insightful, please consider:
+
+- ⭐ Starring the repository
+- 🔁 Sharing it within your network
+- 👤 Following my GitHub profile for future projects and updates
+
+Your support helps drive continued innovation and open-source contributions.
+
+— Syed Shaheer Hussain
+
+[![GitHub followers](https://img.shields.io/github/followers/SyedShaheerHussain?label=Follow&style=social)](https://github.com/SyedShaheerHussain)
+
+![Followers](https://img.shields.io/github/followers/SyedShaheerHussain?label=Followers&color=blue)
+
+![Stars](https://img.shields.io/github/stars/SyedShaheerHussain/Brute-Force-Attack-Simulator-on-Hashes-GUI-?label=Stars&color=yellow)
